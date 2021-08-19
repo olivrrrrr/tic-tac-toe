@@ -1,0 +1,22 @@
+.grid{
+    display: grid; 
+    height: 500px; 
+    width: 500px; 
+    border: 1px solid black; 
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid div{
+    border: 1px solid black;
+}
+
+.circle{
+    background-image: url('circle.png');
+    background-size: cover; 
+}
+
+.cross{
+    background-image: url('cross.png');
+    background-size: cover; 
+}
